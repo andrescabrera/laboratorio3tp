@@ -1,7 +1,0 @@
-1) Sincronizar dos procesos de forma que ejecuten A-B-A-B
-2) Sincronizar tres procesos de forma que ejecuten A-B-C A B C A B C
-3) Sincronizar tres procesos de forma que ejecuten A (B ó C) A (B ó C) A (B ó C)
-4) HAMSTER. Entra la cantidad por parámetro. Pueda comer hasta tres a la vez. La acción de comer es
-
-printf("Spoy el hamster %d, estoy contento", getpid());
-sleep(2);
