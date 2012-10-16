@@ -7,7 +7,7 @@ Trabajo Práctico para la materia Laboratorio III, Universidad de Palermo
 - Juan Lopreiatto
 - Isidoro Schmunck
 
-####Notas de la versión
+###Notas de la versión
 @acabrera - 14hs, Sabado 28/5/2011:
 
 ####BUILD 17 - CAMBIOS PRINCIPALES
@@ -38,15 +38,18 @@ El nombre del threadEnviarDescargarArchivos(): no es coherente con las tareas qu
 ######En servidor
 - Ver la lista de cliente conectados
 - Desconectar a un cliente
+
 ######En cliente
 - Algunos mensajes que estan en log, deberían por pantalla igualmente, o solo por pantalla.
 
 #####ERRORES CONOCIDOS
 (Seguir los pasos para comprobarlo)
-1. Un cliente comparte una carpeta. Lista OK en cliente y servidor.
-2. Un cliente pide un archivo. Lista OK en cliente y servidor.
-3. Un cliente pide ver la lista de compartidos.
 
+1.  Un cliente comparte una carpeta. 
+Lista OK en cliente y servidor.
+2.  Un cliente pide un archivo. 
+Lista OK en cliente y servidor.
+3.  Un cliente pide ver la lista de compartidos.
 Se arruina la lista pero la cantidad de nodos es la misma.
 
 #####PROBLEMAS CONOCIDOS
