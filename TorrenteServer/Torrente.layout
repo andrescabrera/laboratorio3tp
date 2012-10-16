@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="cliente.c" open="1" top="0" tabpos="3">
+		<Cursor position="516" topLine="12" />
+	</File>
+	<File name="funcionesCliente.c" open="0" top="0" tabpos="2">
+		<Cursor position="892" topLine="0" />
+	</File>
+	<File name="helper.c" open="0" top="0" tabpos="4">
+		<Cursor position="1774" topLine="60" />
+	</File>
+	<File name="helper.h" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="servidor.c" open="0" top="0" tabpos="1">
+		<Cursor position="1032" topLine="36" />
+	</File>
+	<File name="threadsOpcionesCliente.c" open="1" top="0" tabpos="2">
+		<Cursor position="474" topLine="11" />
+	</File>
+	<File name="threadsOpcionesCliente.h" open="0" top="0" tabpos="0">
+		<Cursor position="319" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

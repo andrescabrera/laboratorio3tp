@@ -1,0 +1,37 @@
+2011-6-6 20-18-42 - [-1215924544]: Se leyo la ip del servidor, es: 127.0.0.1.
+2011-6-6 20-18-42 - [-1215924544]: Conectado a socket TCP/IP
+2011-6-6 20-18-42 - [-1215924544]: Puerto 50000 - Dirección 127.0.0.1 
+2011-6-6 20-18-48 - [-1215927440]: Lei la opcion 6.
+2011-6-6 20-18-48 - [-1215927440]: Me estan enviando la lista de compartidos del servidor. Tiene 4 archivos.
+2011-6-6 20-18-48 - [-1215927440]: Se recibio la lista de compartidos correctamente.
+2011-6-6 20-18-48 - [-1215927440]: Cliente: 5
+2011-6-6 20-18-48 - [-1215927440]: 	 FileName: /home/acabrera/Documentos/Pepe/Thumbs.db	
+2011-6-6 20-18-48 - [-1215927440]: Tamaño: 5632	
+2011-6-6 20-18-48 - [-1215927440]: Cantidad de Descargas: 0	
+2011-6-6 20-18-48 - [-1215927440]: Id: Kx8VuXIo8EKI.
+
+2011-6-6 20-18-48 - [-1215927440]: Cliente: 5
+2011-6-6 20-18-48 - [-1215927440]: 	 FileName: /home/acabrera/Documentos/Pepe/Nota%20de%20voz%2000009.amr	
+2011-6-6 20-18-48 - [-1215927440]: Tamaño: 64358	
+2011-6-6 20-18-48 - [-1215927440]: Cantidad de Descargas: 0	
+2011-6-6 20-18-48 - [-1215927440]: Id: U4BEck7w5Ai3E
+
+2011-6-6 20-18-48 - [-1215927440]: Cliente: 5
+2011-6-6 20-18-48 - [-1215927440]: 	 FileName: /home/acabrera/Documentos/Pepe/prueba.txt	
+2011-6-6 20-18-48 - [-1215927440]: Tamaño: 13	
+2011-6-6 20-18-48 - [-1215927440]: Cantidad de Descargas: 0	
+2011-6-6 20-18-48 - [-1215927440]: Id: J747QlAyCz.yI
+
+2011-6-6 20-18-48 - [-1215927440]: Cliente: 5
+2011-6-6 20-18-48 - [-1215927440]: 	 FileName: /home/acabrera/Documentos/Pepe/i.jpg	
+2011-6-6 20-18-48 - [-1215927440]: Tamaño: 82452	
+2011-6-6 20-18-48 - [-1215927440]: Cantidad de Descargas: 0	
+2011-6-6 20-18-48 - [-1215927440]: Id: Mikgpgj1GgrNM
+
+2011-6-6 20-20-8 - [-1215924544]: Se envio la ruta y la opcion para descargar, al servidor.
+2011-6-6 20-20-8 - [-1215927440]: Lei la opcion 5.
+2011-6-6 20-20-8 - [-1215927440]: La ruta de la descarga es: /home/acabrera/Documentos/Pepe/i.jpg
+2011-6-6 20-20-8 - [-1215927440]: El nuevo nombre de archivo es ./downloads/i.jpg
+2011-6-6 20-20-8 - [-1215927440]: Me estan enviando un archivo de 82452 bytes
+2011-6-6 20-20-8 - [-1215927440]: Termine de recibir el archivo. Se leyo 82452 bytes y se escribo en el archivo 82452 bytes.
+2011-6-6 20-20-24 - [-1215924544]: Cliente desconectado: Chau amigo!!

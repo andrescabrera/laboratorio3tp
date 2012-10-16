@@ -1,0 +1,75 @@
+#include "funcionesCliente.h"
+
+void err_quit(char *msg)
+{
+    perror(msg);
+    exit(EXIT_FAILURE);
+}
+
+void transferir(int srcfd, char *rutaDescarga)
+{
+    int tamanioArchivoARecibir;
+    int fdToDisk;			//descriptor para archivo en disco
+    int cantidadLeida, cantidadEscrita;
+    int totalBytesLeidos = 0, totalBytesEscritos = 0;
+    char buf[256];			//tam del buffer
+    char mensaje[512];
+    //parseo la ruta
+    sprintf(mensaje, "La ruta de la descarga es: %s", rutaDescarga);
+    enviarALog(mensaje);
+    //me voy hasta el barra
+    char nombreArchivo[256];
+    char nuevaRuta[512];
+    int i = 256, j = 0;
+    while(rutaDescarga[i] != '/'){
+        i--;
+    }
+    i++; //avanzo el /
+    //guardo el nuevo nombre
+    while(rutaDescarga[i] != '\0'){
+        nombreArchivo[j] = rutaDescarga[i];
+        i++;
+        j++;
+    }
+    sprintf(nuevaRuta, "./downloads/%s", nombreArchivo);
+    sprintf(mensaje, "El nuevo nombre de archivo es %s", nuevaRuta);
+    enviarALog(mensaje);
+    //fecha
+    time_t curtime;
+    struct tm *lt;
+    curtime = time(NULL);
+    lt = localtime(&curtime);
+
+    if((cantidadLeida = read(srcfd, buf, 255)) == -1)
+    {
+        enviarALog("ERROR:helper.c:transferir:Error al leer el tamaño del archivo a recibir.");
+    }
+    buf[cantidadLeida]='\0';
+    tamanioArchivoARecibir = atoi(buf);
+    sprintf(mensaje,"Me estan enviando un archivo de %d bytes", tamanioArchivoARecibir);
+    enviarALog(mensaje);
+
+    if ((fdToDisk = open(nombreArchivo, O_CREAT | O_WRONLY, 0777)) == -1)
+    {
+        enviarALog("Error al guardar el archivo destino");
+        exit(EXIT_FAILURE);
+    }
+    //Copio el archivo desde el socket
+    while (totalBytesLeidos < tamanioArchivoARecibir)
+    {
+        if((cantidadLeida = read(srcfd, buf, 256)) == -1)
+        {
+            enviarALog("ERROR:helper.c:transferir:read:Error al leer del socket.");
+        }
+        if ((cantidadEscrita = write(fdToDisk, buf, cantidadLeida)) != cantidadLeida)
+        {
+            enviarALog("ERROR:helper.c:transferir:write:Error al escribir el archivo a disco.");
+            exit(EXIT_FAILURE);
+        }
+        totalBytesLeidos += cantidadLeida;
+        totalBytesEscritos += cantidadEscrita;
+    }
+    sprintf(mensaje, "Termine de recibir el archivo. Se leyo %d bytes y se escribo en el archivo %d bytes.", totalBytesEscritos, totalBytesLeidos);
+    enviarALog(mensaje);
+    close(fdToDisk);
+}

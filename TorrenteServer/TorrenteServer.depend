@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1304227810 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/cliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+
+1304194453 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/helper.h
+
+1304207344 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/funcionesCliente.h
+
+1304225284 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/threadsOpcionesCliente.h
+
+1304194449 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/helper.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<netdb.h>
+	"helper.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+
+1304224752 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/funcionesCliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+
+1304227745 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/servidor.c
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<time.h>
+	<pthread.h>
+	"helper.h"
+
+1304226918 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/Torrente/threadsOpcionesCliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+
+1304194449 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteServer/helper.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<netdb.h>
+	"helper.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+
+1304194453 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteServer/helper.h
+
+1305102990 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteServer/servidor.c
+	"funcionesServer.h"
+
+1305493640 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteServer/funcionesServer.h
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<time.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<fcntl.h>
+	<pthread.h>
+	"helper.h"
+

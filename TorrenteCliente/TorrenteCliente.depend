@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1304194449 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/helper.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<netdb.h>
+	"helper.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+
+1304194453 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/helper.h
+
+1304236389 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/threadsOpcionesCliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+
+1304207344 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/funcionesCliente.h
+
+1304225284 /home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/threadsOpcionesCliente.h
+
+1304236061 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/cliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+
+1304236200 source:/home/acabrera/Documentos/Facultad/Laboratorio3/Proyectos/TorrenteCliente/funcionesCliente.c
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<stdio.h>
+	"helper.h"
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	"funcionesCliente.h"
+	"threadsOpcionesCliente.h"
+

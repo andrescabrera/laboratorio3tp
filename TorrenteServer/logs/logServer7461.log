@@ -1,0 +1,42 @@
+2011-6-6 20-35-8 - [-1215650112]: Cantidad maxima de conexiones simultaneas: 4
+2011-6-6 20-35-8 - [-1215650112]: Se leyo una IP filtrada: 200.512.523.124
+2011-6-6 20-35-8 - [-1215650112]: Se leyo una IP filtrada: 124.124.124.124
+2011-6-6 20-35-8 - [-1215650112]: Se leyeron 33 bytes del archivo de configuración.
+2011-6-6 20-35-8 - [-1215650112]: Bienvenido a Torrente v0.2	Build 0012
+2011-6-6 20-35-8 - [-1215650112]: Socket TCP/IP disponible
+2011-6-6 20-35-8 - [-1215650112]: 	 Puerto: 50000, Direccion IP: 0.0.0.0
+2011-6-6 20-35-11 - [-1215650112]: Nueva conexión desde ip: 127.0.0.1
+2011-6-6 20-35-11 - [-1215650112]: Sume un cliente a la lista de clientes.
+2011-6-6 20-35-11 - [-1215650112]: El descriptor en el main es: 5
+2011-6-6 20-35-14 - [-1215650112]: Nueva conexión desde ip: 127.0.0.1
+2011-6-6 20-35-14 - [-1215650112]: Sume un cliente a la lista de clientes.
+2011-6-6 20-35-14 - [-1215650112]: El descriptor en el main es: 6
+2011-6-6 20-36-47 - [-1232438416]: 6 me envio la opcion: 0
+2011-6-6 20-36-47 - [-1232438416]: Recibo los compartidos
+2011-6-6 20-36-47 - [-1232438416]: Guardando la lista de compartidos en Log.
+2011-6-6 20-36-47 - [-1232438416]: La lista de compartidos ahora tiene 4 archivos.
+2011-6-6 20-37-16 - [-1224045712]: 5 me envio la opcion: 1
+2011-6-6 20-37-16 - [-1224045712]: Enviando los compartidos al cliente
+2011-6-6 20-37-16 - [-1224045712]: Enviando la lista a cliente 5, envio la opción para que la reciba.
+2011-6-6 20-38-30 - [-1224045712]: 5 me envio la opcion: 2
+2011-6-6 20-38-30 - [-1224045712]: El cliente 5 solicita una descarga
+2011-6-6 20-38-30 - [-1224045712]: Le pedi el archivo /home/acabrera/Documentos/Pepe/i.jpg al cliente 6.
+2011-6-6 20-38-30 - [-1232438416]: 6 me envio la opcion: 4
+2011-6-6 20-38-30 - [-1232438416]: El cliente 6 me envia un archivo.
+2011-6-6 20-38-30 - [-1232438416]: Archivo Compartido para enviar a: 5
+2011-6-6 20-38-30 - [-1232438416]: El tamaño del archivo que estoy copiando es 82452 bytes.
+2011-6-6 20-38-30 - [-1232438416]: Termine de copiar un archivo desde 6: Se leyo 82452, y se escribio al cliente 5: 82452 bytes.
+2011-6-6 20-41-42 - [-1224045712]: 5 me envio la opcion: 0
+2011-6-6 20-41-42 - [-1224045712]: Recibo los compartidos
+2011-6-6 20-41-42 - [-1224045712]: Guardando la lista de compartidos en Log.
+2011-6-6 20-41-42 - [-1224045712]: La lista de compartidos ahora tiene 118 archivos.
+2011-6-6 20-41-47 - [-1232438416]: 6 me envio la opcion: -1
+2011-6-6 20-41-47 - [-1232438416]: El cliente 6 se desconecto: eliminandolo de la lista.
+2011-6-6 20-41-47 - [-1232438416]: Se dejaron de compartir 4 archivos del cliente.
+2011-6-6 20-41-47 - [-1232438416]: Se elimino un cliente de la lista de conectados.
+2011-6-6 20-41-47 - [-1232438416]: Guardando la lista de compartidos en Log.
+2011-6-6 20-42-51 - [-1224045712]: 5 me envio la opcion: -1
+2011-6-6 20-42-51 - [-1224045712]: El cliente 5 se desconecto: eliminandolo de la lista.
+2011-6-6 20-42-51 - [-1224045712]: Se dejaron de compartir 114 archivos del cliente.
+2011-6-6 20-42-51 - [-1224045712]: Se elimino un cliente de la lista de conectados.
+2011-6-6 20-42-51 - [-1224045712]: Guardando la lista de compartidos en Log.
