@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1337456594 source:/home/andres/Documentos/2doParcial022010/punto1/Receiver.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/wait.h>
+	<errno.h>
+	<sys/ipc.h>
+	<sys/msg.h>
+
